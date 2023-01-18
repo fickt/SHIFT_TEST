@@ -2,7 +2,7 @@
 
 Как работает приложение?
 
-1) находите папку CFT-test\sort-it\out\artifacts\sort_it_jar (в эту папку заходим)
+1) находите папку sort-it\out\artifacts\sort_it_jar (в эту папку заходим)
 2) Оттуда запускаете командную строку
 3) Прописываете java -jar sort-it.jar (тип сортировки) (тип данных в файлах) (путь до выходного файла) (пути/путь до входных файлов)
 4) Должно получится что-то типа java -jar sort-it.jar -a -s C:\Users\Desktop\out.txt C:\Users\Desktop\in.txt C:\Users\Desktop\in2.txt
