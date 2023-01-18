@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="sort-it:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sort_it_jar</output-path>
+    <root id="root">
+      <element id="archive" name="sort-it.jar">
+        <element id="module-output" name="sort-it" />
+      </element>
+    </root>
+  </artifact>
+</component>
