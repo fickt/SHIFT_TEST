@@ -56,7 +56,7 @@ public class FileManagerImpl implements FileManager {
         } catch (FileNotFoundException e) {
             System.out.printf(MSG_FILE_NOT_FOUND, file);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(MSG_IO_EXCEPTION);
         }
 
         return validateInputIntElements(elements, file, sortType);
@@ -75,7 +75,7 @@ public class FileManagerImpl implements FileManager {
         } catch (FileNotFoundException e) {
             System.out.printf(MSG_FILE_NOT_FOUND, file);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(MSG_IO_EXCEPTION);
         }
 
         return validateInputStringElements(elements, file, sortType);
